@@ -1,0 +1,75 @@
+body {
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-image:url(2.jpg);
+    background-color:#050742;
+    font:normal 20px/30px 'Georgia', serif;
+}
+
+h1 {
+    text-align:center;
+}
+
+.w {
+    position:absolute;
+    bottom:-300px;
+    left:50%;
+    margin-left:-300px;
+    width:600px;
+    height:600px;
+    background:#070d35;
+}
+
+a {
+    color:#FFF2CF;
+    text-decoration:none;
+    background:rgba(255, 255, 255, 0.1);
+}
+
+a:hover {
+    background:rgba(0, 255, 255, 0.2);
+}
+
+blockquote {
+    color:#eee;
+    padding:10px 20px;
+}
+
+a.big {
+    font-size:55px;
+    line-height:80px;
+    margin-right:10px;
+}
+
+a img {
+    vertical-align:top;
+}
+
+.head {
+    text-align:center;
+    background:#fefde0;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+.itunes-icon {
+    width:80px;
+    height:80px;
+    opacity:0.2;
+}
+
+a:hover .itunes-icon {
+    opacity:1;
+}
+
+.follow {
+    text-align:right;
+    font-size:10px;
+    background:#fefde0;
+    padding-right:10px;
+}
+
+.follow a {
+    color:#070d35;
+}
