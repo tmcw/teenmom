@@ -21,6 +21,23 @@ h1 {
     background:#070d35;
 }
 
+/* Mobile Rules
+------------------------------------------------------- */
+@media all and (max-width: 800px) {
+      .w {
+          left:0;
+          width: 100%;
+          bottom:auto;
+          margin:0;
+      }
+      .w img, .w iframe {
+          max-width:100%;
+      }
+      .w a.big {
+          font-size:30px;
+      }
+  }
+
 a {
     color:#FFF2CF;
     text-decoration:none;
@@ -37,6 +54,7 @@ blockquote {
 }
 
 a.big {
+    text-wrap:none;
     font-size:55px;
     line-height:80px;
     margin-right:10px;
