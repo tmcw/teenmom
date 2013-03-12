@@ -41,6 +41,13 @@
         </div>
         <!--End mc_embed_signup-->
     </div>
+    <script>
+    window.onscroll = function() {
+        var posY = (document.documentElement.scrollTop) ? document.documentElement.scrollTop : window.pageYOffset;
+        var offY = Math.max(-posY, -400) / 4;
+        document.body.style.backgroundPosition = "0 " + offY + "px";
+    };
+    </script>
     <script type="text/javascript">
       var _gauges = _gauges || [];
       (function() {

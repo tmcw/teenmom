@@ -2,7 +2,7 @@ body {
     background-size:100%;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    background-image:url(2.jpg);
+    background-image:url(../img/bg2.jpg);
     background-color:#050742;
     font:normal 20px/30px 'Georgia', serif;
 }
@@ -13,7 +13,7 @@ h1 {
 
 .w {
     position:absolute;
-    bottom:-300px;
+    top:300px;
     left:50%;
     margin-left:-300px;
     width:600px;
