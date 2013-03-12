@@ -3,7 +3,7 @@
 <head>
     <meta charset=utf-8 />
     <script>
-    if (window.location.origin.match(/(album\/|track\/)/)) {
+    if (window.location.pathname.match(/(album\/|track\/)/)) {
         window.location.replace('http://teenmomdc.bandcamp.com' + window.location.pathname);
     }
     </script>
