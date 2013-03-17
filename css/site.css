@@ -95,3 +95,13 @@ a:hover .itunes-icon {
 .follow a {
     color:#070d35;
 }
+
+h3 {
+    color:#fff;
+    margin:10px 10px;
+}
+
+a.photo {
+    padding:30px;
+    display:inline-block;
+}
