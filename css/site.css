@@ -105,3 +105,20 @@ a.photo {
     padding:30px;
     display:inline-block;
 }
+
+.alert {
+    padding:10px 20px;
+    background:#9EE5FF;
+    text-align:center;
+    -webkit-transition:background 200ms linear;
+}
+
+.alert:hover {
+    background:#00BBFF;
+}
+
+.alert a {
+    color:red;
+    text-decoration:underline;
+    background:none;
+}
