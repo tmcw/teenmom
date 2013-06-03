@@ -13,11 +13,13 @@ h1 {
 
 .w {
     position:absolute;
-    top:300px;
-    left:50%;
-    margin-left:-300px;
+    top:40px;
+    left:40px;
     width:600px;
     background:#070d35;
+    box-shadow:
+        0 0 5px #e28f6d,
+        0 0 15px #e28f6d;
 }
 
 /* Mobile Rules
@@ -25,9 +27,8 @@ h1 {
 @media all and (max-width: 800px) {
       .w {
           left:0;
+          top:0;
           width: 100%;
-          bottom:auto;
-          margin:0;
       }
       .w img, .w iframe {
           max-width:100%;
@@ -94,6 +95,12 @@ a:hover .itunes-icon {
 
 .follow a {
     color:#070d35;
+    background:#9ee5ff;
+    padding:2px;
+}
+
+.follow a:hover {
+    text-decoration:underline;
 }
 
 h3 {
