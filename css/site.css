@@ -11,47 +11,46 @@ h1 {
     text-align:center;
 }
 
-.w {
-    position:absolute;
-    top:40px;
-    left:40px;
-    width:600px;
-    background:#070d35;
-    box-shadow:
-        0 0 5px #e28f6d,
-        0 0 15px #e28f6d;
+.fillL {
+    background:#fefde0;
 }
 
-/* Mobile Rules
-------------------------------------------------------- */
-@media all and (max-width: 800px) {
-      .w {
-          left:0;
-          top:0;
-          width: 100%;
-      }
-      .w img, .w iframe {
-          max-width:100%;
-      }
-      .w a.big {
-          font-size:30px;
-      }
-  }
+.fillE {
+    background:#002e56;
+}
+
+.fillE * {
+    color:#eee;
+}
 
 a {
-    color:#FFF2CF;
     text-decoration:none;
-    background:rgba(255, 255, 255, 0.1);
-}
-
-a:hover {
+    color:#222;
     background:rgba(0, 255, 255, 0.2);
 }
 
+a:hover {
+    text-decoration:underline;
+}
+
 blockquote {
-    color:#eee;
     padding:10px 20px;
 }
+
+.drop {
+    margin-top:20px;
+}
+
+h3 {
+    margin-top:10px;
+    font:normal 25px/30px 'Georgia', serif;
+    border-bottom:1px solid #003868;
+}
+
+#mc_embed_signup label {
+    font:normal 15px/20px 'Georgia', serif;
+}
+
 
 a.big {
     text-wrap:none;
@@ -74,11 +73,6 @@ a img {
 .itunes-icon {
     width:80px;
     height:80px;
-    opacity:0.2;
-}
-
-a:hover .itunes-icon {
-    opacity:1;
 }
 
 .follow {
@@ -103,11 +97,6 @@ a:hover .itunes-icon {
     text-decoration:underline;
 }
 
-h3 {
-    color:#fff;
-    margin:10px 10px;
-}
-
 a.photo {
     padding:30px;
     display:inline-block;
@@ -128,4 +117,8 @@ a.photo {
     color:red;
     text-decoration:underline;
     background:none;
+}
+
+ul li {
+    padding:5px 20px;
 }
