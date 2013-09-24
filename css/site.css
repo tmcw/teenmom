@@ -1,124 +1,84 @@
 body {
-    background-size:100%;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-image:url(../img/bg2.jpg);
-    background-color:#050742;
-    font:normal 20px/30px 'Georgia', serif;
+    background:#000;
+    color:#fff;
 }
 
 h1 {
-    text-align:center;
+    font-family: 'Old Standard TT', cursive;
+    font-size:20px;
+    letter-spacing:15px;
+    text-transform:uppercase;
+    font-weight:700;
 }
 
-.fillL {
-    background:#fefde0;
-}
-
-.fillE {
-    background:#002e56;
-}
-
-.fillE * {
-    color:#eee;
-}
-
-a {
-    text-decoration:none;
-    color:#222;
-    background:rgba(0, 255, 255, 0.2);
-}
-
-a:hover {
-    text-decoration:underline;
-}
-
-blockquote {
-    padding:10px 20px;
-}
-
-.drop {
-    margin-top:20px;
+h2 {
+    font-weight:400;
+    font-family: 'Old Standard TT', cursive;
+    font-size:120px;
+    color:#fff;
 }
 
 h3 {
-    margin-top:10px;
-    font:normal 25px/30px 'Georgia', serif;
-    border-bottom:1px solid #003868;
+    font-weight:400;
+    font-family: 'Old Standard TT', cursive;
+    font-size:40px;
+    color:#fff;
 }
 
-#mc_embed_signup label {
-    font:normal 15px/20px 'Georgia', serif;
+p {
+    font-family: 'Merriweather', serif;
 }
 
-
-a.big {
-    text-wrap:none;
-    font-size:55px;
-    line-height:80px;
-    margin-right:10px;
-}
-
-a img {
-    vertical-align:top;
-}
-
-.head {
-    text-align:center;
-    background:#fefde0;
-    padding:10px;
-    margin-bottom:20px;
-}
-
-.itunes-icon {
-    width:80px;
-    height:80px;
-}
-
-.follow {
-    text-align:right;
-    font-size:12px;
-    background:#fefde0;
-    padding-right:10px;
-    padding-top:10px;
-}
-
-.follow .fb-like {
-    margin-left: 10px;
-}
-
-.follow a {
-    color:#070d35;
-    background:#9ee5ff;
-    padding:2px;
-}
-
-.follow a:hover {
+a {
+    color:#fff;
     text-decoration:underline;
 }
 
-a.photo {
-    padding:30px;
-    display:inline-block;
+a:hover {
+    color:#ef4;
 }
 
-.alert {
-    padding:10px 20px;
-    background:#9EE5FF;
-    text-align:center;
-    -webkit-transition:background 200ms linear;
+.underline {
+    border-bottom:1px solid #fff;
+    padding-bottom:20px;
 }
 
-.alert:hover {
-    background:#00BBFF;
+section {
+    padding:200px 0;
+    background-size:cover;
 }
 
-.alert a {
-    color:red;
-    text-decoration:underline;
-    background:none;
+.deer {
+    background-image:url(deer.jpg);
 }
 
-ul li {
-    padding:5px 20px;
+.kennedy {
+    background-image:url(kennedy.jpg);
+}
+
+.tr {
+    position:absolute;
+    top:10px;
+    right:10px;
+    text-decoration:none;
+}
+
+blockquote {
+    margin:0;
+    padding:10px 0;
+    font-family: 'Merriweather', serif;
+    font-style:normal;
+}
+
+#c {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:-20;
+}
+
+.rel {
+    position:relative;
 }
