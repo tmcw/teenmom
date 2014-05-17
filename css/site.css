@@ -3,6 +3,10 @@ body {
     color:#fff;
 }
 
+html, body {
+    height:100%;
+}
+
 h1 {
     font-family: 'Old Standard TT', cursive;
     font-size:20px;
@@ -60,6 +64,10 @@ section {
     background-image:url(bass.jpg);
 }
 
+.practice {
+    background-image:url(practice.gif);
+}
+
 .tr {
     position:absolute;
     top:10px;
@@ -85,4 +93,12 @@ blockquote {
 
 .rel {
     position:relative;
+}
+
+.black {
+    background:#000;
+}
+
+.full-height {
+    height:100%;
 }
