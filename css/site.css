@@ -102,3 +102,10 @@ blockquote {
 .full-height {
     height:100%;
 }
+
+.blowout {
+    font-size:200px;
+    background:#000;
+    color:#fff;
+    font-weight:bold;
+}
