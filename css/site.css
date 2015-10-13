@@ -1,112 +1,46 @@
-body {
-    background:#000;
-    color:#fff;
+html, body { height: 100%; margin: 0px; padding: 0px; }
+
+body * {
+  font-family: 'Noto Serif', serif;
 }
 
-html, body {
-    height:100%;
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(1.0, 1.0);}
+    50% {-webkit-transform: scale(1.03, 1.03);}
+    100% {-webkit-transform: scale(1.0, 1.0);}
 }
 
-h1 {
-    font-family: 'Old Standard TT', cursive;
-    font-size:20px;
-    letter-spacing:15px;
-    text-transform:uppercase;
-    font-weight:700;
+.vibe {
+  -webkit-animation: pulsate 1s ease-in-out;
+  -webkit-animation-iteration-count: infinite;
 }
 
-h2 {
-    font-weight:400;
-    font-family: 'Old Standard TT', cursive;
-    font-size:80px;
-    font-size:8vw;
-    color:#fff;
+.fill-height {
+  min-height:100%;
 }
 
-h3 {
-    font-weight:400;
-    font-family: 'Old Standard TT', cursive;
-    font-size:40px;
-    color:#fff;
+.bg-jumper {
+  background-image: url(../img/background-2.jpg);
+  background-position: center center;
 }
 
-p {
-    font-family: 'Merriweather', serif;
+.bg-pattern {
+  background-image: url(../img/background-3.jpg);
+  background-position: center center;
+}
+
+.bg-la-tan {
+  background: #FCDAB4;
+}
+
+.bg-la-salmon {
+  background: #FF916E;
+}
+
+.bg-la-yellow {
+  background: #FFFD47;
 }
 
 a {
-    color:#fff;
-    text-decoration:underline;
-}
-
-a:hover {
-    color:#ef4;
-}
-
-.underline {
-    border-bottom:1px solid #fff;
-    padding-bottom:20px;
-}
-
-section {
-    padding:25px 0;
-    background-size:cover;
-}
-
-.deer {
-    background-image:url(deer.jpg);
-}
-
-.kennedy {
-    background-image:url(kennedy.jpg);
-}
-
-.bass {
-    background-image:url(bass.jpg);
-}
-
-.practice {
-    background-image:url(practice.gif);
-}
-
-.tr {
-    position:absolute;
-    top:10px;
-    right:10px;
-    text-decoration:none;
-}
-
-blockquote {
-    margin:0;
-    padding:10px 0;
-    font-family: 'Merriweather', serif;
-    font-style:normal;
-}
-
-#c {
-    position:absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    z-index:-20;
-}
-
-.rel {
-    position:relative;
-}
-
-.black {
-    background:#000;
-}
-
-.full-height {
-    height:100%;
-}
-
-.blowout {
-    font-size:200px;
-    background:#000;
-    color:#fff;
-    font-weight:bold;
+  color: #37A5B0;
 }
